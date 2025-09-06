@@ -9,7 +9,7 @@ public class Ejercicio5 {
         Producto[] productos = new Producto[N];
         int tamanoActualProductos = 0;
 
-        int op = 0;
+        int op;
         do{
             System.out.println("1 - Crear producto.");
             System.out.println("2 - Mostrar productos (mostrar todos los productos)\r");
