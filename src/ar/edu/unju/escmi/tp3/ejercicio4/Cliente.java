@@ -1,9 +1,9 @@
 package ar.edu.unju.escmi.tp3.ejercicio4;
 
 public class Cliente {
-     int dni;
-     String nombre;
-     char categoria;
+    private int dni;
+    private String nombre;
+    private char categoria;
 
 public Cliente( int dni, String nombre, char categoria ){
     this.dni = dni;
@@ -13,6 +13,16 @@ public Cliente( int dni, String nombre, char categoria ){
 
 @Override
 public String toString(){
-    return "cliente [dni= "+dni+", nombre= "+nombre+", categoria= "+categoria+"]";
+    return "Cliente [DNI= " + dni + ", Nombre= " + nombre + ", Categoría= " + categoria + "]";
 }
+
+// son gets para las búsquedas
+    public int getDni() {
+        return dni;
+    }
+
+    public char getCategoria() {
+        return categoria;
+    }
+
 }
